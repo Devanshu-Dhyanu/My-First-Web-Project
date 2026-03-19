@@ -210,9 +210,9 @@ footer{
 .foot-pannel2{
     background-color: #222f3d;
     color: #cccccc;
-    height: 500px;
+    height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 0.85rem;
 }
@@ -221,4 +221,12 @@ ul a{
     display: block;
     margin-bottom: 5px;
     color: #cccccc;
+    font-size: 0.95rem;
+    text-decoration: none;
+    
+}
+
+.foot-pannel2 p{
+    font-size: 0.9rem;
+    font-weight: 700;
 }
