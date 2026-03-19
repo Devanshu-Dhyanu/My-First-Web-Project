@@ -58,6 +58,9 @@
     border-radius: 4px;
     
 }
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
 .search-select{
     background-color: #f3f3f3;
     width: 50px;
@@ -91,4 +94,16 @@ span{
 .signin-second{
     color: #ffffff;
     font-weight: 700;
+}
+
+/* box 5 */
+.nav-cart{
+    display: flex;
+    font-size: 1.5rem;
+    
+}
+.cart-second{
+    font-size: 0.95rem;
+    align-items: center;
+    padding-top: 9px;
 }
