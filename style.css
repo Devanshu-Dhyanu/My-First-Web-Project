@@ -155,3 +155,38 @@ span{
 .hero-nav a{
     color: #007185;
 }
+
+/* Shop Section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 350px;
+    border: solid 1px #090909;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-image{
+    height: 290px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.box-content p{
+    font-size: 0.85rem;
+    color: #007185;
+    margin-bottom: 5px;
+}
